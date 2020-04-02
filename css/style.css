@@ -63,7 +63,13 @@ color: turquoise;
     color: white;
     border:1% solid white;
 }
-
+.conn{
+    text-decoration: none;
+}
+.conn:hover{
+    text-decoration: none;
+    color: white;
+}
 /* ---------------------------------services------------------------- */
 .title{
     margin-top: 5%;
