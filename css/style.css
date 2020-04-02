@@ -1,0 +1,130 @@
+/* --------------------------------Imported Fonts------------------------------------ */
+@font-face{
+    src: url(../fonts/Amatic/AmaticSC-Bold.ttf);
+    font-family: Amatic;
+}
+@font-face{
+    src: url(../fonts/Manjari/Manjari-Thin.ttf);
+    font-family: Manjari;
+}
+@font-face{
+    src: url(../fonts/Open/OpenSansCondensed-Light.ttf);
+    font-family: OpenSans;
+}@font-face{
+    src: url(../fonts/Open/OpenSansCondensed-Bold.ttf);
+    font-family: OpenSansB;
+}
+@font-face{
+    src: url(../fonts/Sacramento/Sacramento-Regular.ttf);
+    font-family: Sacramento;
+}
+@font-face{
+    src: url(../fonts/Shadows_Into_Light/ShadowsIntoLight-Regular.ttf);
+    font-family: Shadows;
+}
+
+
+/* -------------------------------------------------------Navigation Bar---------------- */
+.navbar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar-brand span{
+font-weight: 1000;
+color: turquoise;
+}
+/* ----------------------------------------------Banner----------------------------------------------- */
+.banner{
+    background-image: url(../img/banner.png) ;
+    background-repeat: no-repeat; 
+    background-position: center;
+    padding-bottom: 18%;
+    
+}
+
+.heading{
+    font-family: Amatic;
+    font-size: 400%;
+    color: white;
+    padding-top: 45%;
+}
+.banner .btn-primary{
+    box-shadow: none;
+    padding: 8px 25px;
+    border:1px solid white;
+    border-radius: 20px;
+    background-color:white;
+    color: black;
+
+}
+.banner .btn-primary:hover{
+    background-color:transparent;
+    color: white;
+    border:1% solid white;
+}
+
+/* ---------------------------------services------------------------- */
+.title{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-family: Sacramento;
+    font-weight: 800;
+    
+}
+.row2 div{
+    border:1px solid #d4d4d4;
+    border-radius: 5px;
+    margin: 5px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+
+}
+.col-md-3 img{
+    margin-bottom: 7%;
+}
+.col-md-3 h4{
+    margin-bottom: 7%;
+}
+
+/* --------------------------- About------------------*/
+.about{
+    background: #f0f0f0;
+    margin-top: 3%;
+    padding-top: 2px;
+}
+li{
+    padding: 5px;
+}
+.img2{
+    height: 80%;
+    width: 100%;
+}
+.diff{
+    padding-left: 7%;
+}
+
+/* -----------------------------Social Medi------------------------ */
+.social-icons a img{
+  margin-bottom: 30px;
+   }
+.find{
+    margin-bottom: 10px;
+}
+.social-icons a:hover img{
+ transform: translateY(-10px);
+}
+
+/* ------------------------------footer------------------------------- */
+.row3{
+    border:1px solid #d4d4d4;
+    border-radius: 5px;
+    margin: 5px;
+    padding-top: 3%;
+    padding-bottom: 3%; 
+    margin-bottom: 5%;
+    padding-left: 3%;
+}
+.row3 div{
+    margin-top: 5px; 
+}
